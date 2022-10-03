@@ -2,5 +2,13 @@ git config --list ===> it will show all about the local git
 git config --global user.name " User_name"=====> it will save the user name
 git config --global user.email "email" =========> it will save the email
 touch file_name.extension =====>create file
+
+
 git status =========> will show status of the reposeatory
 git init ==========> it will create current working directory into reposeatory
+git add file_name ======> it will add the file for tracking
+git add . ==========> for tracking all file in the folder
+git commit -m "repository_name"======> for saving the changes in the files
+git remote add origin URL==========> for uploading the files
+git remote =========> tell where the file is eg origin(url short form)
+git push -u origin master ========> for pushing the file into repository
