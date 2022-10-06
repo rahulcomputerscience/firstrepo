@@ -1,9 +1,11 @@
+First time command for making a file a local reposetory:-------------------------
 git config --list ===> it will show all about the local git
 git config --global user.name " User_name"=====> it will save the user name
 git config --global user.email "email" =========> it will save the email
 touch file_name.extension =====>create file
 
 
+Frequently used command:---------------------------
 git status =========> will show status of the reposeatory
 git init ==========> it will create current working directory into reposeatory
 git add file_name ======> it will add the file for tracking
